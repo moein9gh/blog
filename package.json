@@ -1,0 +1,31 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "my simple node cms ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/moein_ghasemi/node-cms.git"
+  },
+  "author": "moein ghasemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/moein_ghasemi/node-cms/issues"
+  },
+  "homepage": "https://gitlab.com/moein_ghasemi/node-cms#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}

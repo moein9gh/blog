@@ -1,0 +1,71 @@
+<%- include('../includes/default/header') -%>
+<!-- Navigation -->
+<%- include('../includes/default/navbar') -%>
+
+<!-- Page Content -->
+<div class="container">
+    <%if(errors){%>
+    <%errors.map(err=>{%>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong><%=err.message%></strong>
+        </div>
+    <%})%>
+    <%}%>
+    <div class="card card-register mx-auto mt-5">
+        <div class="card-header">Register an Account</div>
+        <div class="card-body">
+            <form action="/register" method="post">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="exampleInputName">First name</label>
+                            <%if(firstName){%>
+                            <input name="firstName" class="form-control" id="exampleInputName" value="<%=firstName%>" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                            <%}else {%>
+                            <input name="firstName" class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                            <%}%>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="exampleInputLastName">Last name</label>
+                            <%if(lastName){%>
+                            <input name="lastName" value="<%=lastName%>" class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
+                            <%}else {%>
+                            <input name="lastName" class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
+                            <%}%>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <%if(email){%>
+                    <input name="email" value="<%=email%>" class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <%}else {%>
+                    <input name="email" class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <%}%>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input name="password" class="form-control" id="exampleInputPassword1" type="password" placeholder="Password">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="exampleConfirmPassword">Confirm password</label>
+                            <input name="passwordConfirm" class="form-control" id="exampleConfirmPassword" type="password" placeholder="Confirm password">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+            <div class="text-center">
+                <a class="d-block small mt-3" href="/login">Login Page</a>
+                <a class="d-block small" href="#">Forgot Password?</a>
+                <a class="d-block small" href="/">Home Page?</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<%- include('../includes/default/footer') -%>

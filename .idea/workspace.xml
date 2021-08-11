@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e04876a7-a315-4afd-8ed1-05bd613c4998" name="Default Changelist" comment="fix some bugs and create single post page">
+      <change afterPath="$PROJECT_DIR$/public/uploads/cZdasdnH3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/cZdnH3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/configuration.js" beforeDir="false" afterPath="$PROJECT_DIR$/conf/configuration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/default/singlePost.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/default/singlePost.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/admin/navbar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/admin/navbar.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/default/body.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/default/body.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/default/navbar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/default/navbar.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1li2rwKCXai0tQwQN002uxSKGjg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin" />
+      <recent name="$PROJECT_DIR$/views/default" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/views/includes" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin/posts" />
+      <recent name="$PROJECT_DIR$/views/admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e04876a7-a315-4afd-8ed1-05bd613c4998" name="Default Changelist" comment="" />
+      <created>1608065795971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608065795971</updated>
+      <workItem from="1608065798370" duration="10637000" />
+      <workItem from="1608108174453" duration="44732000" />
+      <workItem from="1608192366139" duration="25987000" />
+      <workItem from="1608232850514" duration="16567000" />
+      <workItem from="1608465816722" duration="13408000" />
+    </task>
+    <task id="LOCAL-00001" summary="create project structure">
+      <created>1608067324737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608067324738</updated>
+    </task>
+    <task id="LOCAL-00002" summary="write basic configure">
+      <created>1608070502692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608070502692</updated>
+    </task>
+    <task id="LOCAL-00003" summary="write create , delete , edit route&#10;create all posts ,edit,create page&#10;create post,commnet,user,category schema">
+      <created>1608153353709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608153353709</updated>
+    </task>
+    <task id="LOCAL-00004" summary="complete edit controller">
+      <created>1608157366759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608157366759</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create category">
+      <created>1608159139286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159139286</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edit and delete category">
+      <created>1608199114761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608199114761</updated>
+    </task>
+    <task id="LOCAL-00007" summary="display categories and posts">
+      <created>1608208877194</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608208877194</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upload file functionality">
+      <created>1608212606172</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608212606172</updated>
+    </task>
+    <task id="LOCAL-00009" summary="register and login functionality">
+      <created>1608233276157</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608233276157</updated>
+    </task>
+    <task id="LOCAL-00010" summary="resolve bug">
+      <created>1608401943401</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608401943401</updated>
+    </task>
+    <task id="LOCAL-00011" summary="resolve bug">
+      <created>1608404242020</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608404242020</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix some bugs and create single post page">
+      <created>1608478848650</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608478848650</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create project structure" />
+    <MESSAGE value="write basic configure" />
+    <MESSAGE value="create , delete , edit route&#10;create all posts ,edit,create page" />
+    <MESSAGE value="write create , delete , edit route&#10;create all posts ,edit,create page&#10;create post,commnet,user,category schema" />
+    <MESSAGE value="complete edit controller" />
+    <MESSAGE value="create category" />
+    <MESSAGE value="edit and delete category" />
+    <MESSAGE value="display categories and posts" />
+    <MESSAGE value="upload file functionality" />
+    <MESSAGE value="register and login functionality" />
+    <MESSAGE value="resolve bug" />
+    <MESSAGE value="fix some bugs and create single post page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs and create single post page" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
