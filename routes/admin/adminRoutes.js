@@ -1,0 +1,20 @@
+const express=require("express")
+const router=express.Router()
+const adminController=require("../../controllers/admin/adminController")
+
+router.get("/",adminController.indexRoute)
+router.get("/posts/",adminController.getPosts)
+router.post("/posts/submit",adminController.savePost)
+router.get("/posts/create/",adminController.createPost)
+router.get("/posts/edit/:id",adminController.editPost)
+router.post("/posts/edit/",adminController.saveEditPost)
+router.get("/posts/delete/:id",adminController.deletePost)
+router.get("/category",adminController.getCategories)
+router.post("/category/submit",adminController.saveCategories)
+router.post("/category/save",adminController.saveCategory)
+router.get("/category/edit/:id",adminController.editCategories)
+router.post("/category/delete/:id",adminController.deleteCategories)
+//router.post("/category/delete/:id",adminController.createCategories)
+router.get("/comment",adminController.getComment)
+
+module.exports=router
